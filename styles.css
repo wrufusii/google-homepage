@@ -18,7 +18,57 @@ body {
 
 #nav-bar {
   height: 60px;
-  background-color: rgb(182, 182, 182);
+  background-color: fff;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: #222;
+}
+
+#about {
+  padding: 5px;
+  margin: 0 5px;
+  margin-left: 15px;
+}
+
+#store {
+  padding: 5px;
+  margin: 0 5px;
+}
+
+#third-box {
+  flex-grow: 1;
+  display: inline-block;
+  height: 48px;
+}
+
+#right-elems {
+  font-size: 13px;
+  float: right;
+  display: flex;
+  padding-right: 15px;
+  height: 48px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#gmail {
+  padding-left: 15px;
+}
+
+#images {
+  padding-left: 15px;
+}
+
+#app-menu {
+  height: 40px;
+  width: 40px;
+  background-color: grey;
 }
 
 #logo {
