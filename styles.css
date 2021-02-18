@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 body {
   height: 100%;
   margin: 0;
@@ -8,5 +12,28 @@ body {
   background-color: #fff;
 }
 
-#nav {
+#wrapper {
+  height: 100%;
+}
+
+#nav-bar {
+  height: 60px;
+  background-color: rgb(182, 182, 182);
+}
+
+#logo {
+  background-color: rgb(211, 211, 211);
+  height: calc(100% - 560px);
+  min-height: 92px;
+}
+
+#inputs {
+  padding: 20px;
+  max-height: 160px;
+  background-color: beige;
+}
+
+#spacer {
+  background-color: rgb(211, 211, 211);
+  flex-grow: 1;
 }
